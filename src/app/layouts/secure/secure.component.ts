@@ -7,8 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SecureComponent implements OnInit {
 
+
+  
+
   constructor() { }
 
+
+  
   ngOnInit() {
   }
 

@@ -11,9 +11,11 @@ import { DashboardComponent } from './secure/dashboard/dashboard.component';
 import { AccountsComponent } from './layouts/accounts/accounts.component';
 import { LandingComponent } from './public/landing/landing.component';
 
+import { NAV_DROPDOWN_DIRECTIVES } from './directives/nav-dropdown.directive';
 
 @NgModule({
   declarations: [
+    NAV_DROPDOWN_DIRECTIVES,
     AppComponent,
     PublicComponent,
     SecureComponent,
