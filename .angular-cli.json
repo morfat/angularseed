@@ -19,9 +19,18 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
       "styles": [
+        
         "styles.css"
       ],
       "scripts": [
+        "assets/jquery/dist/jquery.min.js",
+        "assets/themes/core-ui/js/popper.js/dist/umd/popper.min.js",
+        "assets/bootstrap-4.0.0-beta.3/dist/js/bootstrap.min.js",
+        "assets/themes/core-ui/bootstrap/dist/js/bootstrap.min.js",
+        "assets/themes/core-ui/js/pace-progress/pace.min.js",
+        "assets/themes/core-ui/js/app.js"
+
+
       ],
       "environmentSource": "environments/environment.ts",
       "environments": {
